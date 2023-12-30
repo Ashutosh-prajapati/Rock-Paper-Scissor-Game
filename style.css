@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color: rgb(134, 247, 183);
+}
+header{
+    width:100%;
+    height:auto;
+    /* border:1px solid black; */
+}
+header .heading{
+    width:50%;
+    height:auto;
+    margin: 0 auto;
+    padding:10px 10px;
+    /* -webkit-text-stroke: 2px black; */
+    color: #fff;
+    text-align: center;
+    background-color: #30b050;
+    border-radius: 0 0 50px 50px;
+    border:4px solid #195728;
+    border-top: none;
+}
+section{
+    width: 100%;
+    height:80%;
+}
+.choices{
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   padding:100px 0;
+}
+.choices img{
+    width:15%;
+    /* mix-blend-mode: color-burn; */
+    transition: 0.5s;
+}
+.choices img:hover{
+    transform: scale(1.2);
+}
+.scoreboards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.scoreboards .board{
+    padding:0 20px;
+    text-align: center;
+}
+.scoreboards .board span{
+    font-size: 2rem;
+    font-weight: bold;
+    color:#202050;
+}
+.scoreboards .board p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding:10px 20px;
+    color:rgb(0, 68, 0);
+}
+.msg-box{
+    text-align: center;
+    padding:50px 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.msg-box span{
+   padding:10px 50px;
+   background-color: #0cabb9;
+   color:#fff;
+   border-radius: 50px;
+   border:4px solid #0c54b9;
+}
